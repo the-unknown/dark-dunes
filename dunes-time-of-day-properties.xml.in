@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>Dunes – Time of Day</name>
+    <filename>@DIR@/dunes-time-of-day.xml</filename>
+    <filename-dark>@DIR@/dunes-time-of-day.xml</filename-dark>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#0E1A18</pcolor>
+    <scolor>#0E1A18</scolor>
+  </wallpaper>
+</wallpapers>

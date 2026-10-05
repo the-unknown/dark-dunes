@@ -1,0 +1,22 @@
+<background>
+  <!-- Starts at 05:00; each phase ends with a 30-minute crossfade into the next -->
+  <starttime><year>2026</year><month>01</month><day>01</day><hour>5</hour><minute>0</minute><second>0</second></starttime>
+  <!-- Dawn 05:00–08:00 -->
+  <static><duration>9000.0</duration><file>@DIR@/1_dawn.jpg</file></static>
+  <transition type="overlay"><duration>1800.0</duration><from>@DIR@/1_dawn.jpg</from><to>@DIR@/2_morning.jpg</to></transition>
+  <!-- Morning 08:00–11:00 -->
+  <static><duration>9000.0</duration><file>@DIR@/2_morning.jpg</file></static>
+  <transition type="overlay"><duration>1800.0</duration><from>@DIR@/2_morning.jpg</from><to>@DIR@/3_midday.jpg</to></transition>
+  <!-- Midday 11:00–15:00 -->
+  <static><duration>12600.0</duration><file>@DIR@/3_midday.jpg</file></static>
+  <transition type="overlay"><duration>1800.0</duration><from>@DIR@/3_midday.jpg</from><to>@DIR@/4_afternoon.jpg</to></transition>
+  <!-- Afternoon 15:00–18:00 -->
+  <static><duration>9000.0</duration><file>@DIR@/4_afternoon.jpg</file></static>
+  <transition type="overlay"><duration>1800.0</duration><from>@DIR@/4_afternoon.jpg</from><to>@DIR@/5_dusk.jpg</to></transition>
+  <!-- Dusk 18:00–21:00 -->
+  <static><duration>9000.0</duration><file>@DIR@/5_dusk.jpg</file></static>
+  <transition type="overlay"><duration>1800.0</duration><from>@DIR@/5_dusk.jpg</from><to>@DIR@/6_night.jpg</to></transition>
+  <!-- Night 21:00–05:00 -->
+  <static><duration>27000.0</duration><file>@DIR@/6_night.jpg</file></static>
+  <transition type="overlay"><duration>1800.0</duration><from>@DIR@/6_night.jpg</from><to>@DIR@/1_dawn.jpg</to></transition>
+</background>
